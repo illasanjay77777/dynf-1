@@ -1,0 +1,108 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #4caf50;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #388e3c;
+}
+
+form p {
+  color: red;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.guest-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2 {
+  margin-bottom: 15px;
+}
+
+.summary p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.summary p strong {
+  color: #4caf50;
+}
